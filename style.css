@@ -1,0 +1,431 @@
+@import url(https://db.onlinewebfonts.com/c/29eee6d957e73039264c9de9fd949d20?family=Flame+Sans);
+
+@import url(https://fonts.cdnfonts.com/css/flame-3);
+
+
+body{
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background-color: var(--primary);
+
+  
+}
+
+.description h4{
+  font-family: "Flame";
+  font-weight: 900;
+  
+
+
+
+}
+
+  
+
+
+
+html{
+  --primary:rgba(248,241,231,255);
+  --secondary:rgb(80,35,20);
+  --teritiary:rgb(214,34,1);
+  --white:rgb(239, 239, 239);
+
+
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-div{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+  align-items: center;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: lightgray;
+  position: fixed;
+  z-index: 200;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: var(--primary);
+  
+}
+
+.header-div .right-section{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  
+}
+
+.header-div .btn-view-cart{
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--teritiary);
+  color: var(--white);
+  font-size: 10px;
+  font-weight: 700;  
+  cursor: pointer;
+  font-family: 'Flame';
+  align-items: center;
+  
+}
+.header-div .btn-view-cart:hover{
+  background-color: rgb(225, 76, 50);
+}
+
+.header-div .btn-view-cart .text{
+  margin-left: 5px;
+ 
+  
+}
+
+#intro-page{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+#intro-page .heading-button{
+  max-width: 850px auto;
+  margin-top: -80px;
+   
+}
+
+#intro-page button{
+  display: block;
+  width: 250px;
+  margin-bottom: 10px;
+  padding:12px 20px ;
+  border-radius: 20px;
+  border-width: thin;
+  cursor: pointer;
+  
+  
+}
+
+.btn-pickup{
+  background-color: var(--teritiary);
+  border: none;
+  color: white;
+  transition: 0.3s;
+  
+}
+
+.btn-delivery{
+  background: transparent;
+  border-style: solid;
+  border-color: var(--secondary);
+  transition: 0.3s;
+}
+
+.btn-delivery:hover{
+  background-color: var(--white);
+  border-color: var(--secondary);
+
+
+}
+.btn-pickup:hover{
+  background-color: rgb(225, 76, 50);
+}
+
+
+
+#intro-page{
+  margin-top: 10px;
+  padding-left: 200px;
+}
+#intro-page .first-cover{
+  
+  padding-right: 200px;
+}
+
+
+#header-section img{
+  width: 200px;
+  
+  
+}
+
+#intro-page h1{
+  font-family: "Flame Bold";
+  font-weight:100;
+  color: var(--secondary);
+  width: 400px;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+#intro-page img{
+  width: 700px ;
+  
+}
+
+.grid-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 15px;
+  padding-right: 80px;
+  padding-left: 80px;
+  
+  
+
+
+}
+
+.discription{
+  padding-right: 80px;
+  padding-left: 80px;
+  min-width: 1000px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  position: relative;
+  right: 0;
+  
+  
+  
+
+  
+}
+.description-div img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px ;
+  
+}
+.description-div{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0,0, 0.3);
+  padding-bottom: 30px;
+  
+
+ 
+
+ 
+}
+
+.description-details{
+  padding: 10px 15px;
+  color: var(--secondary);
+
+}
+
+
+
+
+
+.description-div .button{
+  position: relative;
+
+}
+
+
+.description-div h4{
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family:"Flame" ;
+  
+
+
+
+}
+
+.description-div .see-terms{
+  text-decoration: underline;
+}
+.description-div p{
+  line-height: 20px;
+  font-size: 13px;
+  width: 100%;
+  padding-top: 10px;
+  cursor: pointer;
+  font-family: sans-serif;
+
+}
+
+.description-div .button-description{
+  padding: 6px 16px;
+  border-radius: 20px;
+  border-width: thin;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  position: absolute;
+  right: -10px;
+  bottom: -35px;
+  background: transparent;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  cursor: pointer;
+  transition: 0.3s;
+
+  
+}
+
+.description-div .button-description:hover{
+  color: white;
+  border-color: white;
+  background-color: var(--secondary);
+}
+
+#bottom-section{
+  display: flex;
+  padding-top: 80px;
+  background-color: rgb(226, 220, 211);
+  padding-left: 100px;
+  flex-direction: row;
+  justify-content: left;
+  padding-bottom: 70px;
+  position: static
+
+}
+
+
+
+#bottom-section .scanner img{
+  width: 400px;
+  margin-left: 100px;
+  margin-right: 70px;
+  margin-top: -120px;
+
+  
+  
+
+ 
+
+}
+
+#bottom-section h1{
+  font-family:'Flame Bold';
+  font-weight:100;
+  font-size: 50px;
+  color: var(--secondary);
+  width: 100%;
+  
+
+}
+#bottom-section .buttons{
+  margin-bottom:30px ;
+  margin-top: 30px;
+  
+}
+
+
+.button-apple{
+  width: 200px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  margin-right: 20px;
+  cursor: pointer;
+  
+}
+.button-google{
+  width: 200px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+  
+
+}
+
+#bottom-section .buttons {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  
+
+}
+
+#bottom-section p{
+  font-size: 12px ;
+  font-family: 'Flame';
+  line-height: 20px;
+}
+#bottom-section .bottom-description{
+  margin-left: 20px;
+  
+}
+
+#copyright-section{
+  text-align: center;
+  background-color: var(--secondary);
+  color: white;
+  padding: 20px;
+  font-family: 'Flame';
+  font-size: 12px;
+}
+
+#copyright-section span{
+  text-decoration: underline;
+  cursor: pointer;
+}
+#copyright-section span:hover{
+  color: lightgray;
+}
+
+#footer{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--primary);
+  z-index: 100;
+  border-top-style: solid;
+  border-top-color: white;
+  border-top-width: 1px;
+}
+
+#footer .footer-icons img{
+  width: 20px;
+  align-items: center;
+
+  
+
+}
+#footer .footer-icons{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 12px;
+  font-family: 'Flame';
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ line-height: 25px;
+ justify-content: center;
+ opacity: 1;
+ cursor: pointer;
+ transition: opacity 0.3s;
+
+}
+#footer .footer-icons:hover{
+  opacity: 0.7;
+
+}
+
+#footer .footer-icons p{
+  align-items: center;
+  
+}
